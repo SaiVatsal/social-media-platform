@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #0f0728;
+  color: #ffffff;
+}
+
+.gradient-pulse {
+  background: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);
+}
+
+.gradient-pulse-border {
+  border-image: linear-gradient(135deg, #ec4899, #8b5cf6) 1;
+}
